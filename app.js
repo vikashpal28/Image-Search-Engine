@@ -20,7 +20,7 @@ async function SearchImages() {
     search_result.innerHTML = "";
   }
   const results = data.results;
-
+//map is used to create new array;
   results.map((result) => {
     const image = document.createElement("img");
     image.src = result.urls.small;
